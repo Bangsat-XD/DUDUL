@@ -116,14 +116,6 @@ def login():
                 print('[x] Cookies Salah')
                 time.sleep(3)
                 login()
-        except requests.exceptions.SSLError:
-                exit('[x] Koneksi Error')
-    elif lg == '3' or lg == '03':
-	print('\nAnda Akan Di Arahkan Ke Browser')
-	os.system("xdg-open https://youtu.be/3Y6xsMB3wRg")
-	exit()
-    elif lg == '0' or lg == '00':
-        exit()
     else:
         exit('[x] Isi Dengan Benar')
 ##### MENU #####
