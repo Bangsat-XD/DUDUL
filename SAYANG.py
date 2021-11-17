@@ -159,9 +159,9 @@ def menu():
   os.system("clear")
   print logo
   print('============================================')
-  print('[•] Nama : '+nm)
-  print('[•] Your ID : '+id)
-  print('[•] Birthday : '+tl)
+  print('[®] Nama     : '+nm)
+  print('[®] Your ID  : '+id)
+  print('[®] Birthday : '+tl)
   print('============================================')
   print('[1]--®--Crack ID Dari Teman')
   print('[2]--®--Crack ID Dari Publik')
@@ -558,8 +558,8 @@ class crack:
 					print('[x] File Tidak Valid')
 					menu()
 					continue
-				print('[•] Hasil Ok Tersimpan Di Ok.txt')
-				print('[•] Hasil Cp Tersimpan Di Cp.txt')
+				print('[®] Hasil Ok Tersimpan Di Ok.txt')
+				print('[®] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
@@ -572,8 +572,8 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print('[•] Hasil Ok Tersimpan Di [RAKA_AMANDA].txt')
-                        print('[•] Hasil Cp Tersimpan Di [AMANDA_RAKA].txt')
+                        print('[®] Hasil Ok Tersimpan Di [RAKA_AMANDA].txt')
+                        print('[®] Hasil Cp Tersimpan Di [AMANDA_RAKA].txt')
 			print('──────────────────────────────────────────')
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
@@ -665,8 +665,8 @@ class crack1:
 					print('[x] File Tidak Valid')
 					menu()
 					continue
-				print('[•] Hasil Ok Tersimpan Di Ok.txt')
-				print('[•] Hasil Cp Tersimpan Di Cp.txt')
+				print('[®] Hasil Ok Tersimpan Di Ok.txt')
+				print('[®] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
@@ -679,8 +679,8 @@ class crack1:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print('[•] Hasil Ok Tersimpan Di Ok.txt')
-                        print('[•] Hasil Cp Tersimpan Di Cp.txt')
+                        print('[®] Hasil Ok Tersimpan Di Ok.txt')
+                        print('[®] Hasil Cp Tersimpan Di Cp.txt')
 			print('──────────────────────────────────────────')
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
@@ -748,7 +748,7 @@ class crack2:
 				except Exception as e:
 					print('[x] File Tidak Ada')
 					continue
-				print('[•] Contoh Pass : sayang,anjing')
+				print('[®] Contoh Pass : sayang,anjing')
 				self.pwlist()
 				break
 			elif f=="t":
@@ -771,8 +771,8 @@ class crack2:
 					print('[x] File Tidak Valid')
 					menu()
 					continue
-				print('[•] Hasil Ok Tersimpan Di Ok.txt')
-				print('[•] Hasil Cp Tersimpan Di Cp.txt')
+				print('[®] Hasil Ok Tersimpan Di Ok.txt')
+				print('[®] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
 				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
@@ -785,8 +785,8 @@ class crack2:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print('[•] Hasil Ok Tersimpan Di Ok.txt')
-                        print('[•] Hasil Cp Tersimpan Di Cp.txt')
+                        print('[®] Hasil Ok Tersimpan Di Ok.txt')
+                        print('[®] Hasil Cp Tersimpan Di Cp.txt')
 			print('──────────────────────────────────────────')
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
