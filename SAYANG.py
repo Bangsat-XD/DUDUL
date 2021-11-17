@@ -248,7 +248,7 @@ def teman():
                         print("\r[®] Dump %s ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 ys.close()
                 os.rename(qq,file)
-		print("\r[®] Total ID : %s         "%(len(id)))
+		print("\r[®] Total ID  : %s         "%(len(id)))
 		print('──────────────────────────────────────────')
                 metode()
 
@@ -288,7 +288,7 @@ def followers():
                         print("\r[®] Dump %s ID\r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 ys.close()
                 os.rename(qq,file)
-                print("\r[®] Total ID : %s           "%(len(id)))
+                print("\r[®] Total ID  : %s           "%(len(id)))
 		print('──────────────────────────────────────────')
                 metode()
 
@@ -329,7 +329,7 @@ def like():
                         print("\r[®] Dump %s ID \r"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
                 ys.close()
                 os.rename(qq,file)
-                print("\r[®] Total ID : %s           "%(len(id)))
+                print("\r[®] Total ID  : %s           "%(len(id)))
 		print('──────────────────────────────────────────')
 		metode()
 
@@ -373,7 +373,7 @@ def publik():
 			print("\r[®] Dump %s ID"%(str(len(id)))),;sys.stdout.flush();time.sleep(0.007)
 		ys.close()
 		os.rename(qq,file)
-		print("\r[®] Total ID : %s          "%(len(id)))
+		print("\r[®] Total ID  : %s          "%(len(id)))
 		print('──────────────────────────────────────────')
 		metode()
 		
