@@ -553,7 +553,7 @@ class crack:
 				print('[•] Hasil Ok Tersimpan Di Ok.txt')
 				print('[•] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
-				ThreadPool(35).map(self.main,self.fl)
+				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				print ('[Selesai]')
 				break
@@ -660,7 +660,7 @@ class crack1:
 				print('[•] Hasil Ok Tersimpan Di Ok.txt')
 				print('[•] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
-				ThreadPool(35).map(self.main,self.fl)
+				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				print ('[Selesai]')
 				break
@@ -766,7 +766,7 @@ class crack2:
 				print('[•] Hasil Ok Tersimpan Di Ok.txt')
 				print('[•] Hasil Cp Tersimpan Di Cp.txt')
 				print('──────────────────────────────────────────')
-				ThreadPool(35).map(self.main,self.fl)
+				ThreadPool(30).map(self.main,self.fl)
 				os.remove(self.apk)
 				print ('[Selesai]')
 				break
