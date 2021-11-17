@@ -28,7 +28,7 @@ except ImportError:
 ### USERAGENT ###
 ua = ('Mozilla/5.0 (Linux; Android 5.0; Lenovo A1000 Build/S100; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.121 Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/110.0.0.14.69;]')
 ### Logo ###
-logo = ("""              ☆ RAKA ☆ ™
+logo = ("""                  ☆ RAKA ☆ ™
               ───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───
               ───█▒▒░░░░░░░░░▒▒█───
               ────█░░█░░░░░█░░█────
@@ -41,8 +41,8 @@ logo = ("""              ☆ RAKA ☆ ™
              █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█
         ┏━┳━┓┏━━┓╋╋╋╋┏━━┓╋╋╋╋╋╋╋╋╋┏┓
         ┃┃┃┃┣╋┓┏┻┳━┳┓┃┏┓┣━━┳━┓┏━┳┳┛┣━┓
-        ┃┃┃┃┃┃┃┃╋┃╋┃┗┫┣┫┃┃┃┃╋┗┫┃┃┃╋┃╋┗┓ V : 1.2
-        ┗┻━┻╋┓┣┻━┻━┻━┻┛┗┻┻┻┻━━┻┻━┻━┻━━┛
+        ┃┃┃┃┃┃┃┃╋┃╋┃┗┫┣┫┃┃┃┃╋┗┫┃┃┃╋┃╋┗┓ 
+        ┗┻━┻╋┓┣┻━┻━┻━┻┛┗┻┻┻┻━━┻┻━┻━┻━━┛ V: 1.2
         ╋╋╋╋┗━┛     """)
 mbasic_h={"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
