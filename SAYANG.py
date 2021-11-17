@@ -1,4 +1,11 @@
 #-*-coding:utf-8-*-
+# Autor     : ☆ RAKA ☆ ™︻®╤───────═◍➤
+# Github    : Bangsat-XD
+# Facebook  : Raka Andrian Tara
+# Instagram : raka_andrian27
+# Twitter   : Bangsat_XD
+# NOTE ...!!!
+# Kalo mau RECOD IZIN DULU ya CUKKKK Bot COMEND JANGAN DI GANTI ...?
 
 import requests,bs4,sys,os,subprocess,time,datetime
 import requests,sys,random,re,base64,json
@@ -564,8 +571,8 @@ class crack:
 		else:
 			for i in self.fl:
 				i.update({"pw":self.pw})
-                        print('[•] Hasil Ok Tersimpan Di Ok.txt')
-                        print('[•] Hasil Cp Tersimpan Di Cp.txt')
+                        print('[•] Hasil Ok Tersimpan Di [RAKA_AMANDA].txt')
+                        print('[•] Hasil Cp Tersimpan Di [AMANDA_RAKA].txt')
 			print('──────────────────────────────────────────')
 			ThreadPool(30).map(self.main,self.fl)
 			os.remove(self.apk)
@@ -603,7 +610,7 @@ class crack:
 				else:continue
 					
 			self.ko+=1
-			print "\r[Crack] %s/%s *Ok : %s - *Cp : %s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
+			print "\r[Crack] %s/%s *Ok : %s : *Cp : %s"%(self.ko,len(self.fl),len(self.ada),len(self.cp)),;sys.stdout.flush()
 		except:
 			self.main(fl)
 class crack1:
