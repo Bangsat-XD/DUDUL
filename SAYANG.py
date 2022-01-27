@@ -497,15 +497,20 @@ def generate(text):
 			continue
 		else:
 			i=i.lower()
-			if len(i)==3 or len(i)==4 or len(i)==5:
+			if len(i)==3 or len(i)==4 or len(i)==5 or len(i)==6:
 				results.append(i+"123")
 				results.append(i+"1234")
-			else:
 				results.append(i+"123")
 				results.append(i+"1234")
 				results.append(i+"12345")
 				results.append(i+"123456")
-				results.append(i)
+				results.append(i+"1234567")
+                        else:
+                                results.append("sayang")
+                                results.append("bismillah")
+                                results.append("anjing")
+                                results.append("indonesia")
+                                results.append("786786")
 	return results
 class crack:
 	def __init__(self):
